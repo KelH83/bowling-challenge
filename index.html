@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowling Scorecard</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <h1>Bowling Scorecard</h1>
+    <div class="controls">
+        <label>Roll 1: <input type="number" id="roll1" /></label>
+        <label>Roll 2: <input type="number" id="roll2" /></label>
+        <label>Roll 3 (if needed): <input type="number" id="roll3" /></label>
+        <button class="btn" onclick="addFrame()">Add Frame</button>
+        <button class="btn"onclick="calculateScore()">Calculate Score</button>
+        <button class="btn"onclick="resetGame()">Reset Game</button>
+    </div>
+    <div id="scorecard" class="scorecard">
+
+    </div>
+    <div id="output" class="output"></div>
+</body>
+</html>

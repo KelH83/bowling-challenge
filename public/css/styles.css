@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size:26px;
+    background-image: url('../images/bowlingback.jpg'); background-size: cover; background-repeat: no-repeat;
+}
+.scorecard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 2px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    color:#000
+    
+}
+.frame {
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    padding: 5px;
+    text-align: center;
+}
+.frame-header {
+    font-weight: bold;
+    font-size: 14px;
+}
+.frame-rolls, .frame-score {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.frame-rolls span {
+    display: inline-block;
+    width: 20px;
+    border-bottom: 1px solid #000;
+}
+.frame-score {
+    display: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.controls {
+    margin: 20px auto;
+    text-align: center;
+}
+.output {
+    color:#fff;
+    margin-top: 20px;
+    font-size: 1.25rem;
+    white-space: pre-wrap;
+    background-color: red;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.btn {
+    color:#000;
+    margin-top: 20px;
+    font-size: 1.15rem;
+    white-space: pre-wrap;
+    background-color: white;
+    border: 3px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: red;
+    border: 3px solid white;
+    color: white
+}
